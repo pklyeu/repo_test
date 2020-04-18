@@ -1,16 +1,16 @@
-def branch = '${branch}'
+def branch = '123'
 
-currentBuild.setDisplayName "Build ${version}"
+currentBuild.setDisplayName "Build 111"
 
 stage 'Create'
 node() {
-sh "echo Hello Create ${branch}"  
+sh "echo Hello Create 222"  
 }
 stage 'Deploy'
 node() {
   sh "echo Hello Deploy"
 }
-sleep 120
+sleep 10
 stage 'Test'
 node ('') {
   sh "echo Hello Test"
