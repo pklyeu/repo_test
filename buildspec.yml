@@ -6,7 +6,9 @@ phases:
       java: corretto8
   build:
     commands:
-      - echo Build started on `date`
+      - echo Hello PANDA
+      - echo build_commands started on `date`
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Hello PANDA
+      - echo post_build_commands completed on `date`
