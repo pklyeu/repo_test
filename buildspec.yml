@@ -6,7 +6,7 @@ phases:
       java: corretto8
   pre_build:
     commands:
-      - echo "========= Logging in to Amazon ECR... ==========" 
+      - echo "========= Logging in to Amazon ECR... =========="
 #      - $(aws ecr get-login --no-include-email --region eu-central-1)      
   build:
     commands:
