@@ -10,5 +10,6 @@ phases:
       - echo build_commands started on `date`
   post_build:
     commands:
-      - echo Hello PANDA
+      - ls -la
+      - pwd
       - echo post_build_commands completed on `date`
