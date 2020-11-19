@@ -12,4 +12,4 @@ phases:
     commands:
       - ls -la
       - pwd
-      - echo post_build_commands completed on `date`
+      - echo post_build_commands completed on `date` 
