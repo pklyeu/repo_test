@@ -12,10 +12,11 @@ phases:
 #      - $(aws ecr get-login --no-include-email --region eu-central-1)      
   build:
     commands:
-      - echo Hello PANDA 
+      - echo "========= build commands... =========="
       - echo build_commands started on `date`
   post_build:
     commands:
+      - echo "========= post_build commands... =========="
       - ls -la
       - pwd
       - echo post_build_commands completed on `date` 
