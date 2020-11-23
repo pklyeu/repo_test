@@ -6,7 +6,7 @@ phases:
       java: corretto8
   pre_build:
     commands:
-      - echo "========= Logging in to Amazon ECR... =========="
+      - echo "========= pre_build commands... =========="
 #      - apt update
 #      - apt -y install awscli
 #      - $(aws ecr get-login --no-include-email --region eu-central-1)      
