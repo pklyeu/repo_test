@@ -7,7 +7,7 @@ phases:
   pre_build:
     commands:
       - echo "========= pre_build commands... =========="
-      - docker run hello-world
+#      - docker run hello-world
 #      - apt update
 #      - apt -y install awscli
 #      - $(aws ecr get-login --no-include-email --region eu-central-1)      
